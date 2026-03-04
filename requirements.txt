@@ -1,0 +1,28 @@
+
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Data formats
+pyarrow
+fastparquet
+
+# Econometrics
+statsmodels
+linearmodels
+
+# Financial data
+eikon
+
+# Utilities
+python-dotenv
+tqdm
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# Notebook environment
+jupyter
+ipykernel
