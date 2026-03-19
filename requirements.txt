@@ -1,0 +1,34 @@
+
+
+# Core scientific stack
+pandas==2.1.4
+numpy==1.26.4
+scipy
+
+# Data formats
+pyarrow
+fastparquet
+
+# Econometrics
+statsmodels
+linearmodels
+
+# Financial data
+eikon==1.1.18
+
+# Utilities
+python-dotenv
+tqdm
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Others
+openpyxl
+math
+time
