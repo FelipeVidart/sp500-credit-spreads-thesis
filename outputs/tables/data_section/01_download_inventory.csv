@@ -1,0 +1,15 @@
+dataset,path,exists,n_rows,n_cols,n_firms,n_bonds,n_tickers,date_min,date_max
+bonds_monthly_spreads_clean,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\bonds_monthly_spreads.parquet,1,327629,14,,5805.0,,2015-01-31 00:00:00,2025-12-31 00:00:00
+bonds_universe_full,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\bonds_universe_full.parquet,1,9448,9,341.0,9448.0,328.0,,
+cds_spreads_daily,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\cds_spreads_daily.parquet,1,384692,7,245.0,246.0,246.0,2014-12-31 00:00:00+00:00,2025-12-31 00:00:00+00:00
+company_metadata,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\company_metadata.parquet,1,504,5,504.0,504.0,,,
+equity_prices_daily,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\equity_prices_daily.parquet,1,1337507,4,503.0,503.0,,2015-01-02 00:00:00,2025-12-31 00:00:00
+equity_returns_daily,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\equity_returns_daily.parquet,1,1336936,5,503.0,503.0,,2015-01-05 00:00:00,2025-12-31 00:00:00
+fundamentals_q_extended,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\fundamentals_extended_q.parquet,1,14091,17,503.0,503.0,503.0,2015-03-31 00:00:00,2025-12-31 00:00:00
+fundamentals_with_market_share,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\fundamentals_with_market_share_sp500.csv,1,60952,9,503.0,503.0,,2013-06-30 00:00:00,2025-11-30 00:00:00
+macro_controls_monthly,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\macro_controls_monthly.parquet,1,132,15,,,,2015-01-31 00:00:00,2025-12-31 00:00:00
+market_power_proxies,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\market_power_proxies_sp500_quarterly.csv,1,60952,33,503.0,503.0,,2013-06-30 00:00:00,2025-11-30 00:00:00
+market_prices_daily,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\market_prices_daily.parquet,1,2766,3,,,,2015-01-02 00:00:00,2025-12-31 00:00:00
+oas_spreads_monthly_bond,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\raw\oas_spreads_monthly_bond.parquet,1,331272,5,341.0,9448.0,328.0,2015-01-05 00:00:00,2025-12-31 00:00:00
+universe_firms_clean,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\universe_firms.parquet,1,504,7,501.0,504.0,504.0,,
+universe_input_csv,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\inputs\empresas_tickers_test.csv,1,504,7,501.0,504.0,504.0,,

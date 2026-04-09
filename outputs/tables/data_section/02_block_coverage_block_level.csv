@@ -1,0 +1,8 @@
+block,n_variables,n_obs_any,n_obs_all,pct_obs_any,pct_obs_all,n_firms_any,n_firms_all,n_periods_any,n_periods_all,variables
+cds_aux,1,9942,9942,34.64,34.64,100,100,132,132,cds_5y_mean
+credito_agregado,4,28574,22311,99.56,77.74,271,262,131,108,"credit_level, credit_slope, crc_level_beta, crc_slope_beta"
+dependiente,3,28701,28701,100.0,100.0,271,271,132,132,"oas_mean, n_bonds, n_bonds_oas"
+equity,2,27103,27103,94.43,94.43,271,271,120,120,"beta_252, ivol_252"
+fundamentals_core,5,28701,17266,100.0,60.16,271,188,132,109,"leverage, cash_to_assets, log_assets, rollover_12m, residual_maturity_mean"
+market_power,1,25877,25877,90.16,90.16,267,267,131,131,market_share_w
+mercado_macro,4,28701,28447,100.0,99.12,271,271,132,130,"mkt_ret, mkt_vol_60d, policy_rate, term_spread_10y_2y"

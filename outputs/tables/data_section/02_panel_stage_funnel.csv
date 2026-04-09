@@ -1,0 +1,9 @@
+stage,path,n_rows,n_firms,n_bonds,n_periods,date_min,date_max
+01_universe_firms,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\universe_firms.parquet,504,501,504.0,,,
+02_bonds_universe_full,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\bonds_universe_full.parquet,9448,341,9448.0,,,
+03_bond_month_clean,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\intermediate\bonds_monthly_spreads.parquet,327629,271,5805.0,132.0,2015-01-31,2025-12-31
+04_firm_month_spreads,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\intermediate\bonds_monthly_spreads_firmlevel.parquet,28701,271,,132.0,2015-01-31,2025-12-31
+05_panel_block1_base_mapping_equity,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\intermediate\panel_master_block1_base_mapping_equity.parquet,28701,271,,132.0,2015-01-31,2025-12-31
+06_panel_block2_fund_mp,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\intermediate\panel_master_block2_fund_mp.parquet,28701,271,,132.0,2015-01-31,2025-12-31
+07_panel_block3_crc_macro_sector,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\intermediate\panel_master_block3_crc_macro_sector.parquet,28701,271,,132.0,2015-01-31,2025-12-31
+08_panel_master_final,C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\panel_master.parquet,28701,271,,132.0,2015-01-31,2025-12-31

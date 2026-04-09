@@ -1,0 +1,46 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:               oas_mean   R-squared:                        0.4128
+Estimator:                   PanelOLS   R-squared (Between):              0.9095
+No. Observations:               15706   R-squared (Within):               0.4128
+Date:                Tue, Mar 31 2026   R-squared (Overall):              0.8670
+Time:                        18:13:38   Log-likelihood                -7.839e+04
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      681.89
+Entities:                         170   P-value                           0.0000
+Avg Obs:                       92.388   Distribution:                F(16,15520)
+Min Obs:                       6.0000                                           
+Max Obs:                       109.00   F-statistic (robust):             34.754
+                                        P-value                           0.0000
+Time periods:                     109   Distribution:                F(16,15520)
+Avg Obs:                       144.09                                           
+Min Obs:                       9.0000                                           
+Max Obs:                       168.00                                           
+                                                                                
+                                    Parameter Estimates                                    
+===========================================================================================
+                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------
+leverage                    26.716     18.427     1.4498     0.1471     -9.4027      62.834
+log_assets                  0.5791     3.8859     0.1490     0.8815     -7.0377      8.1960
+cash_to_assets             -91.982     27.268    -3.3733     0.0007     -145.43     -38.533
+current_ratio               7.0605     2.0884     3.3807     0.0007      2.9669      11.154
+interest_coverage           0.0254     0.0226     1.1211     0.2623     -0.0190      0.0698
+residual_maturity_mean      6.5618     0.9707     6.7598     0.0000      4.6591      8.4645
+rollover_12m                21.409     10.344     2.0697     0.0385      1.1339      41.685
+ivol_252                    257.12     57.015     4.5096     0.0000      145.36      368.87
+policy_rate                -8.7443     3.4830    -2.5105     0.0121     -15.571     -1.9171
+term_spread_10y_2y         -37.016     10.420    -3.5525     0.0004     -57.440     -16.593
+move_eom                   -0.0478     0.1360    -0.3516     0.7251     -0.3145      0.2188
+mkt_ret                    -65.258     70.054    -0.9315     0.3516     -202.57      72.055
+credit_level                0.3653     12.507     0.0292     0.9767     -24.150      24.881
+credit_slope               -0.9646     1.5591    -0.6187     0.5361     -4.0205      2.0913
+mkt_ret_x_leverage         -132.56     66.119    -2.0048     0.0450     -262.16     -2.9566
+credit_level_x_rollover     10.215     22.050     0.4632     0.6432     -33.007      53.436
+===========================================================================================
+
+F-test for Poolability: 82.952
+P-value: 0.0000
+Distribution: F(169,15520)
+
+Included effects: Entity

@@ -1,0 +1,41 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:               oas_mean   R-squared:                        0.1854
+Estimator:                   PanelOLS   R-squared (Between):             -2.7022
+No. Observations:               15706   R-squared (Within):               0.2257
+Date:                Tue, Mar 31 2026   R-squared (Overall):             -2.4530
+Time:                        18:13:41   Log-likelihood                -7.263e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      408.06
+Entities:                         170   P-value                           0.0000
+Avg Obs:                       92.388   Distribution:                 F(8,14348)
+Min Obs:                       6.0000                                           
+Max Obs:                       109.00   F-statistic (robust):             9.6808
+                                        P-value                           0.0000
+Time periods:                     109   Distribution:                 F(8,14348)
+Avg Obs:                       144.09                                           
+Min Obs:                       9.0000                                           
+Max Obs:                       168.00                                           
+                                                                                
+                                   Parameter Estimates                                    
+==========================================================================================
+                        Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------------------
+leverage                   38.445     20.337     1.8904     0.0587     -1.4179      78.309
+log_assets                 12.712     7.2382     1.7563     0.0791     -1.4755      26.900
+cash_to_assets            -44.719     28.633    -1.5618     0.1184     -100.84      11.406
+current_ratio              3.0642     3.6055     0.8499     0.3954     -4.0030      10.131
+interest_coverage          0.0224     0.0227     0.9858     0.3242     -0.0221      0.0670
+residual_maturity_mean     3.9206     0.8430     4.6505     0.0000      2.2681      5.5730
+rollover_12m               0.8612     13.175     0.0654     0.9479     -24.963      26.686
+ivol_252                   217.11     36.116     6.0113     0.0000      146.31      287.90
+==========================================================================================
+
+F-test for Poolability: 37.883
+P-value: 0.0000
+Distribution: F(1349,14348)
+
+Included effects: Entity, Other Effect (sector_time_fe)
+Model includes 1 other effect
+Other Effect Observations per group (sector_time_fe):
+Avg Obs: 13.299, Min Obs: 1.0000, Max Obs: 34.000, Groups: 1181

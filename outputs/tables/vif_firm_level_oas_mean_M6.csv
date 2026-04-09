@@ -1,0 +1,9 @@
+variable,vif,severity
+current_ratio,1.5720905293368437,Bajo
+cash_to_assets,1.434683980771686,Bajo
+interest_coverage,1.1666223110276726,Bajo
+leverage,1.1462009878046298,Bajo
+log_assets,1.0969770306641857,Bajo
+rollover_12m,1.0567799034458432,Bajo
+residual_maturity_mean,1.030202403227491,Bajo
+ivol_252,1.0293639054991952,Bajo

@@ -1,0 +1,8 @@
+model,dep_var,time_fe,rhs_vars,n_obs,n_firms,n_time
+M0,oas_mean,True,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252,15706,170,109
+M1,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom,15706,170,109
+M2,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom | mkt_ret,15706,170,109
+M3,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom | mkt_ret | mkt_ret_x_leverage | mkt_ret_x_market_power,13969,168,108
+M4,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom | credit_level | credit_slope,15706,170,109
+M5,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom | credit_level | credit_slope | credit_level_x_rollover | credit_level_x_market_power,13969,168,108
+M6,oas_mean,False,leverage | log_assets | cash_to_assets | current_ratio | interest_coverage | residual_maturity_mean | rollover_12m | ivol_252 | policy_rate | term_spread_10y_2y | move_eom | mkt_ret | credit_level | credit_slope | mkt_ret_x_leverage | credit_level_x_rollover,15706,170,109

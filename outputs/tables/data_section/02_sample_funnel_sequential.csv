@@ -1,0 +1,8 @@
+stage,n_required_vars,n_obs,n_firms,n_periods,required_vars
+panel_base,0,28701,271,132,
+dep_only,3,28701,271,132,"oas_mean, n_bonds, n_bonds_oas"
+dep_plus_equity,5,27103,271,120,"oas_mean, n_bonds, n_bonds_oas, beta_252, ivol_252"
+dep_plus_equity_macro,9,27103,271,120,"oas_mean, n_bonds, n_bonds_oas, beta_252, ivol_252, mkt_ret, mkt_vol_60d, policy_rate, term_spread_10y_2y"
+dep_plus_equity_macro_credit,13,22311,262,108,"oas_mean, n_bonds, n_bonds_oas, beta_252, ivol_252, mkt_ret, mkt_vol_60d, policy_rate, term_spread_10y_2y, credit_level, credit_slope, crc_level_beta, crc_slope_beta"
+core_without_market_power,18,15659,183,108,"oas_mean, n_bonds, n_bonds_oas, beta_252, ivol_252, mkt_ret, mkt_vol_60d, policy_rate, term_spread_10y_2y, credit_level, credit_slope, crc_level_beta, crc_slope_beta, leverage, cash_to_assets, log_assets, rollover_12m, residual_maturity_mean"
+core_with_market_power,19,13753,182,107,"oas_mean, n_bonds, n_bonds_oas, beta_252, ivol_252, mkt_ret, mkt_vol_60d, policy_rate, term_spread_10y_2y, credit_level, credit_slope, crc_level_beta, crc_slope_beta, leverage, cash_to_assets, log_assets, rollover_12m, residual_maturity_mean, market_share_w"

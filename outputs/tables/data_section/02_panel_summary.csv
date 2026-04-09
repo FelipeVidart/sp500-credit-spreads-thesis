@@ -1,0 +1,2 @@
+panel_path,n_obs_total,n_firms_total,n_periods_total,date_min,date_max,dep_var_used,dep_non_null_total,dep_null_pct_total,obs_per_firm_mean,obs_per_firm_median,obs_per_firm_min,obs_per_firm_max
+C:\Users\vidar\OneDrive\Desktop\UDESA\Tesis\Tesis-main\data\clean\panel_master.parquet,28701,271,132,2015-01-31,2025-12-31,oas_mean,28701,0.0,105.91,116.0,5,132

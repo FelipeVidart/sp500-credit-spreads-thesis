@@ -1,0 +1,6 @@
+stage,n_rows,n_firms,n_bonds,n_obs,notes
+01_universe_input,504,504.0,,504,Universo inicial de firmas / tickers
+02_company_metadata,504,504.0,,504,Metadata corporativa descargada desde Refinitiv
+03_bonds_universe_filtered,9448,341.0,9448.0,9448,Bonos elegibles luego de filtros contractuales
+04_oas_raw_bond_month,331272,341.0,9448.0,331272,OAS bruto a nivel bono-mes | rango: 2015-01-05 00:00:00 -> 2025-12-31 00:00:00
+05_bond_month_clean,327629,,5805.0,327629,Bond-month limpio con maturity / residual maturity
